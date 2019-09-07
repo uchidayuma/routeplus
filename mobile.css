@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*ここにモバイルのスタイルを書く*/
+@media screen and (max-width: 767px) {
+    div#body-in, div#footer-in {
+        width: 767px;
+    }
+    
+
+}
+main{
+    margin: 0;
+}
+div.newsContent img{
+    width: 500px;
+    height: 300px;
+}
+.missionListMain {
+    background-color: #ffffff;
+    height: auto;
+    padding: 30px;
+    margin: 20px;
+}
+.aboutUsMain {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.aboutUsMainListLeft{
+    margin: 0 0 30px 0;
+    border: solid #757575;
+}
+.article img, .category-description img, .wp-caption, .hover-image {
+    max-width: none;
+}
+.main_backgroundimg {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.menberList{
+    flex-wrap: nowrap;
+    margin: 20px;
+}
+.menberList img{
+    padding: 20px;
+    height: 360px;
+}
+.menberList h4 p{
+    margin: 0 20px;
+}
+.mainNewsDeta p {
+    width: auto;
+    font-size: 22px;
+}
+.mainNewsDeta{
+    width: 500px;
+}
+.newsContent{
+    justify-content: center;
+}
+#nav-drawer{
+    display: block;
+    margin:0 0 0 auto
+}
+.header .alignleft {
+    display: block;
+    bottom: 0px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.headerTitle{
+    display: flex;
+}
