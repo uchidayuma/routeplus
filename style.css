@@ -36,18 +36,26 @@ Version:    20161002
   width: 100%;
 }
 .main_backgroundimg {
-  height: 40%;
+  height: 55vh;
   width: 100%;
   object-fit: cover;
 }
 .body {
   width: auto;
 }
-.mainTitle {
+article h2.common-h2 {
   padding: 5px;
+  margin-top: 50px;
+}
+article h2.subTitle {
+  color: #555;
 }
 #sns-group {
   display: none;
+}
+.main-service__description {
+  color: #454545;
+  margin-bottom: 1rem;
 }
 @media screen and (max-width: 1110px) {
   div#body-in,
@@ -116,7 +124,6 @@ header {
   text-align: center;
   padding: 20px;
   margin: 40px;
-  border: 1px solid #757575;
   background-color: #e0bcbc;
 }
 .mainService {
@@ -190,7 +197,7 @@ tbody td {
 }
 /*layout調整用削除*/
 .layoutAdjustment {
-  margin: 0 0 40vh 0;
+  margin: 0 0 100px 0;
 }
 
 .footerBorder {

@@ -4,53 +4,46 @@
 
 <main>
   <div id="service">
-    <h2 class="mainTitle redFont">Service</h2>
+    <h2 class="mainTitle redFont common-h2">Service</h2>
     <hr width="100%">
     <p class="mainTitlemassage">ルートプラスは3つの事業を行なっております</p>
   </div>
     
   <div class="mainService">
     <div class="mainServiceContent">
-      <h2 class="subTitle">就職活動時保証付きプログラミング教育</h2>
-      <p class="whiteFont">就職が決まらなければ全額返金！
-        <br/> 結果にコミットするプログラミングレッスン 30歳前後のフリーターが 
-        <br/> 多数ITエンジニアとして就職しています。
-      </p>
-      <a href="https://se-shine.net/post_lp/lessons/promise-lesson/">詳細はこちら</a>
-    </div>
-    <div class="mainServiceContent">
-      <h4>エンジニア志願者向けサービス</h4>
-      <h2 class="mainServiceContentNotMargin">ココカラエンジニア</h2>
-      <p class="whiteFont">エンジニアを目指したい全ての人へ
-        <br/>技術・マインド・人生戦略の全てが揃っている
-        <br/>メディアです。エンジニアになりたい人は
-        <br/>まずアクセス！
-      </p>
-      <a href="https://se-shine.net/">詳細はこちら</a>
-    </div>
-  
-    <div class="mainServiceContent">
       <h2 class="subTitle">Webアプリケーション開発</h2>
-      <p class="whiteFont">Webアプリケーションを作りたい方へ
+      <p class="main-service__description">Webアプリケーションを作りたい方へ
         <br/>弊社はPHPを使ったマッチングアプリや
         <br/>業務管理アプリを得意としています。
         <br/>まずはお問い合わせください。
       </p>
-      <a href="#">詳細はこちら</a>
+      <a href="/webapps">詳細はこちら</a>
     </div>
+
     <div class="mainServiceContent">
       <h2 class="subTitle">法人向け並走型アプリ開発</h2>
-      <p class="whiteFont">貴社の社員様をITエンジニアへ育成
+      <p class="main-service__description">貴社の社員様をITエンジニアへ育成
         <br/>ITエンジニアが採用できないなら育てればいい。
         <br/>そんな経営者様におすすめのサービスになります。
         <br/>貴社で使えるアプリを開発しながら育成を承ります。
       </p>
-      <a href="ここにURL">詳細はこちら</a>
+      <a href="/parallel">詳細はこちら</a>
+    </div>
+
+    <div class="mainServiceContent">
+      <h4>リモートワーカー支援ツール</h4>
+      <h2 class="mainServiceContentNotMargin">ヘルパーズ ~helpers~</h2>
+      <p class="main-service__description">リモートワークでハッピーになる全ての人へ
+        <br/>リモートワークの課題を
+        <br/>我々の知見を元に解決していきます。
+      </p>
+      <a href="#">Comming soon ...</a>
     </div>
   </div>
   
+  
   <div id="news">
-    <h2 class="redFont">News</h2>
+    <h2 class="redFont common-h2">News</h2>
     <hr width="100%">
   </div>
 
@@ -80,7 +73,7 @@
   
 
   <div id="menber">
-    <h2 class="redFont">Menber</h2>
+    <h2 class="redFont common-h2">Menber</h2>
     <hr width="100%">
   </div>
   <div class="menberList">
@@ -96,7 +89,7 @@
     </div>
   </div>
   <div id="mission">
-    <h2 class="redFont">Mission</h2>
+    <h2 class="redFont common-h2">Mission</h2>
     <hr width="100%">
   </div>
 
@@ -120,7 +113,7 @@
       </div>
     </div>
     <div id="aboutUs">
-      <h2 class="redFont">AboutUs</h2>
+      <h2 class="redFont common-h2">AboutUs</h2>
       <hr width="100%">
     </div>
     <div class="aboutUsMain">
@@ -212,16 +205,15 @@
     </div>
     </div>
       <div id="recruite">
-        <h2 class="redFont">Recruite</h2>
+        <h2 class="redFont common-h2">Recruite</h2>
         <hr width="100%">
       </div>
         <div class="recruiteMain">
           <p>現在、正社員・インターンの募集は行っておりません。</p>
         </div>
         <div id="contact">
-          <h2 class="redFont">Contact</h2>
+          <h2 class="redFont common-h2">Contact</h2>
           <a href='/contact'>お問い合わせはこちらから</a>
-          <hr width="100%">
         </div>
         <div class="layoutAdjustment">
           <!-- プラグインでお問い合わせフォームは実装 --> 
