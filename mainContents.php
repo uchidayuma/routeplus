@@ -6,7 +6,7 @@
   <div id="service">
     <h2 class="mainTitle redFont">Service</h2>
     <hr width="100%">
-    <p class="mainTitlemassage">ルートプラスは4つの事業を行なっております</p>
+    <p class="mainTitlemassage">ルートプラスは3つの事業を行なっております</p>
   </div>
     
   <div class="mainService">
@@ -57,11 +57,11 @@
   <div class="newsContent">
     <?php
       $args = array(
-      'posts_per_page' => 6 // 表示件数の指定
+      'posts_per_page' => 6, // 表示件数の指定
       );
-      $posts = get_posts( $args );
-      foreach ( $posts as $post ): // ループの開始
-      setup_postdata( $post ); // 記事データの取得
+      $posts = get_posts($args);
+      foreach ($posts as $post): // ループの開始
+      setup_postdata($post); // 記事データの取得
     ?>
     <div class="mainNewsDeta"><!-- ループ内容-->
       <?php if (has_post_thumbnail()) : ?>
@@ -70,7 +70,7 @@
       <?php else : ?>
         <a href="<?php the_permalink(); ?>"><img src="wp-content/themes/simplicity2_child/images/newsImg.png" width="320" height="200" alt="デフォルト画像" /></a>
         <p><a href="<?php the_permalink(); ?>">><?php the_title(); ?></a></p>
-      <?php endif ; ?>
+      <?php endif; ?>
     </div>
     <?php
     endforeach; // ループの終了
@@ -141,7 +141,6 @@
     <tr>
       <td>所在地</td>
       <td>東京都新宿区新宿7丁目26-7ピクセル新宿1F
-        <br>熊本県人吉市駒井田町216-12ヒトヨシラボ</td>
       </tr>
       <tr>
         <td>設立年月日</td>
@@ -156,58 +155,59 @@
   <div class="aboutUsMainListLight">
     <ul class="typeSquare">
     <!--ココらへんのコードはもうちょっときれいに書き直します。(後で修正予定)-->
-    <li>2016年 
-    <table>
-    <tr>
-      <td>9 月 ----</td>
-      <td>静岡県御殿場市に株式会社ルートプラスを設立</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>学生発信型インターンシップサービス開始</td>
-    </tr>
-  </table></li>
-  <li>2017年
-    <table>
-      <tr>
-        <td>4 月 ----</td>
-        <td>東京都新宿区に転移</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>学生発信型インターンシップサイトサービス終了</td>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td>5 月 ----</td>
-        <td>Webアプリケーション開発事業をスタート</td>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td>6 月 ----</td>
-        <td>自社メディア：ここからエンジニアをスタート</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>プログラミング教育事業スタート</td>
-      </tr>
-    </table>
-    </li>
-    <li>2018
-      <table>
-    <tr>
-      <td>11月----</td>
-      <td>熊本県人吉市の吸収技術専門学校と業務提携</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>ヒトヨシラボへサテライトオフィスを開設</td>
-    </tr>
-  </table>
-</li>
-</ul>
+        <li>2016年 
+          <table>
+            <tr>
+              <td>9 月 ----</td>
+              <td>静岡県御殿場市に株式会社ルートプラスを設立</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>学生発信型インターンシップサービス開始</td>
+            </tr>
+          </table>
+        </li>
+        <li>2017年
+          <table>
+            <tr>
+              <td>4 月 ----</td>
+              <td>東京都新宿区に転移</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>学生発信型インターンシップサイトサービス終了</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td>5 月 ----</td>
+              <td>Webアプリケーション開発事業をスタート</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td>6 月 ----</td>
+              <td>自社メディア：ココカラエンジニアをスタート</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>プログラミング教育事業スタート</td>
+            </tr>
+          </table>
+          </li>
+          <li>2018
+            <table>
+              <tr>
+                <td>7 月 ----</td>
+                <td>地方からフルリモートで雇用をスタート</td>
+              </tr>
+              <tr>
+                <td>9 月 ----</td>
+                <td>東京在住メンバーが代表打田のみとなる</td>
+              </tr>
+            </table>
+          </li>
+      </ul>
     <!--==========================-->
     </div>
     </div>
@@ -220,6 +220,7 @@
         </div>
         <div id="contact">
           <h2 class="redFont">Contact</h2>
+          <a href='/contact'>お問い合わせはこちらから</a>
           <hr width="100%">
         </div>
         <div class="layoutAdjustment">
