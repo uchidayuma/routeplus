@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Simplicity2 child
+Template:   simplicity2
+Version:    20161002
+*/
+
+/* Simplicity子テーマ用のスタイルを書く */
+#site-title a{
+  color: #999999;
+}
+.alignleft{
+  bottom: 0;
+}
+.header_logo{
+    height : 75px;
+}
+.header_logo_title{
+    font-size: 25px;
+}
+.header_logo_flex{
+    flex-flow: row;
+    align-items: flex-end;
+}   
+#main{
+    
+    box-sizing: border-box;
+    width: auto;
+    padding: 20px 0px;
+    border: 0px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+.main_backgroundimg{
+    height: 40%;
+    width : 100%;
+    object-fit: cover;
+}
+.body{
+    width: auto;
+}
+@media screen and (max-width: 1110px){
+    div#body-in, div#footer-in {
+        width: 1110px;
+    }
+}
+#header-in, #navi-in, #body-in, #footer-in {
+    width: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.article h2 {
+    border-left: none;
+    margin: 0px;
+    padding: 25px 30px;
+    font-size: 26px;
+}
+.article h3 {
+    font-size: 23px;
+    border-bottom: none;
+    padding: 0;
+}
+
+/*MainContent*/
+main{
+	margin: 0 5%;
+}
+header{
+	display : flex;
+  align-items: flex-end;
+  padding: 15px;
+}
+.senter{
+	text-align:center;
+}
+.routePlus{
+	height: 10vh;
+	margin: 0 0 0 5vw;
+}
+.titleMassage{
+	font-size: 24px;
+	margin: 0 2vw 0 0;
+}
+.bacimg{
+ 	height: 60vh;
+ 	width : 100%;
+}
+.mainTitlemassage{
+  padding: 2% 0%;
+}
+
+.mainServiceContent h4{
+  margin: 0;
+}
+.mainServiceContentNotMargin{
+  margin: 0 0 10px 0;
+}
+
+.mainServiceContent {
+  border-radius: 10px;
+	height: 300px;
+	width: 480px;
+	text-align: center;
+	padding : 20px;
+  margin: 40px;
+  border: 1px solid #757575;
+	background-color: #E0BCBC;
+}
+.mainService{
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: space-around;
+}
+#nav {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+#nav li {
+	width: 140px;
+	text-align: center;
+	background-color: #fff;
+  float: left;
+}
+ 
+#nav li a {
+	text-decoration: none;
+	color: #ff0000;
+	font-weight: bold;
+}
+.whiteFont{
+	color: #ffffff;
+}
+.footerMenu{
+	display: flex;
+}
+.redFont{
+	color : #FF0004;
+}
+.aboutUsMain{
+	justify-content: space-around;
+	display: flex;
+  flex-wrap: nowrap;
+  margin: 100px 0;
+}
+.aboutUsMainListLeft tr{
+	border: 1px solid #dee2e6;
+}
+.aboutUsMainListLight table{
+	border : none;
+}
+.menberList{
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: space-around;
+}
+.missionList{
+	text-align:center;
+	background-color: #E0BCBC;
+	padding: 10px;
+}
+.missionListMain{
+	background-color: #ffffff;
+	height : 30vh;
+	padding : 30px;
+	margin: 20px;
+}
+.missionListMainText{
+	display: inline-block;
+	text-align: left;
+}
+tbody td{
+	padding : 0 10px;
+}
+.recruiteMain{
+	margin: 0 0 20vh 0;
+}
+/*layout調整用削除*/
+.layoutAdjustment{
+	margin: 0 0 40vh 0;
+}
+
+.footerBorder{
+	border: 1px solid #BFBFBF;
+}
+.footerMenu a{
+	font-size: 24px;
+}
+.footerMenu{
+	align-items: flex-end;
+	justify-content: center;
+}
+div.copyright p{
+  text-align:center;
+  font-size: 20px;
+  margin: 25px;
+  color: #999999;
+}
+
+.typeSquare{
+	list-style-type: square;
+}
+
+.mainNewsDeta{
+  position: relative;
+  margin: 30px;
+}
+.mainNewsDeta p{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  bottom: 0;
+  padding: 10px;
+  background-color: rgba(105, 105, 105, 0.7);
+}
+
+.article h4 {
+  border-bottom:none;
+}
+.article td {
+  border: none;
+}
+.article table {
+  border-collapse: collapse;
+  margin: 0px;
+  max-width: 100%;
+  width: auto;
+}
+/*よくわからないCSSが入ったので無効化*/
+p{
+  display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+* {
+    box-sizing: border-box;
+    /* widthにpaddingとborderを含めて計算を簡単にするため */
+  }
+  div.newsContent img{
+    width: 460px;
+    height: 220px;
+  }
+  .newsContent {
+    display: flex;
+    /* flexboxレイアウトを使うための命令 */
+    flex-wrap: wrap;
+    /* 上記で囲われたflexアイテムを折り返すように設定する */
+    justify-content: center;
+  }
+  .mainNewsDeta{
+    width: 320px;
+  }
+  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 12px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+#header .alignleft{
+  display: flex;
+  bottom: 0px;
+  align-items: flex-end;
+}
+.site-title {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 100%;
+  align-items: flex-end;
+  display: flex;
+  /* padding: 10px; */
+}
+.site-description a{
+  color: #757575;
+  text-decoration: none;
+  padding: 15px;
+}
+.site-description{
+  margin: 25px 0;
+  font-size: 22px;
+  color: #757575;
+}
+.header .alignleft {
+  display: flex;
+  bottom: 0px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+#nav-drawer{
+  display: none;
+}
