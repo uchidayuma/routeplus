@@ -11,11 +11,6 @@
   <?php endif; ?>
 
   <header>
-    <h1 class="entry-title"><?php 
-      if ( !is_single() ) echo '<a href="'.get_permalink().'">'; //投稿ページ以外ではタイトルにリンクを貼る
-        the_title(); //投稿のタイトル
-      if ( !is_single() ) echo '</a>'; //投稿ページ以外ではタイトルにリンクを貼る
-    ?></h1>
     <p class="post-meta">
       <?php get_template_part('datetime') //投稿日と更新日?>
 
@@ -64,7 +59,7 @@
 
   <div id="the-content" class="entry-content">
   <?php //記事本文の表示
-    the_content( get_hoge_theme_text_read_more() ); //デフォルト：続きを読む?>
+    the_content( get_theme_text_read_more() ); //デフォルト：続きを読む?>
   </div>
 
   <footer>
