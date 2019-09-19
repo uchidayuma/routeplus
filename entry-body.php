@@ -64,7 +64,7 @@
 
   <div id="the-content" class="entry-content">
   <?php //記事本文の表示
-    the_content( get_hoge_theme_text_read_more() ); //デフォルト：続きを読む?>
+    the_content( get_theme_text_read_more() ); //デフォルト：続きを読む?>
   </div>
 
   <footer>
