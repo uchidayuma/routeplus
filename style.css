@@ -215,6 +215,7 @@ div.copyright p{
   bottom: 0;
   padding: 10px;
   background-color: rgba(105, 105, 105, 0.7);
+  width: 320px;
 }
 
 .article h4 {
