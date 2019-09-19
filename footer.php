@@ -8,7 +8,7 @@
     
       <hr class="footerBorder">
       <div class="footerMenu">
-        <img src="wp-content/themes/simplicity2_child/images/logo.png" class="routePlus" alt="#">
+        <img src="/wp-content/themes/simplicity2_child/images/logo.png" class="routePlus" alt="#">
           <ul id="nav">
             <li><a href="#service">Service</a></li>
             <li><a href="#news">News</a></li>

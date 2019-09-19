@@ -10,7 +10,7 @@
 <?php if ( is_home() ): ?>
   <div class="headerTitle">
     <h1 class="site-title" itemscope itemtype="https://schema.org/Organization">
-      <img class="header_logo" src="wp-content/themes/simplicity2_child/images/logo.png" />
+      <img class="header_logo" src="/wp-content/themes/simplicity2_child/images/logo.png" />
     </h1>
     <!-- ハンバーガー -->
     <div id="nav-drawer">
@@ -33,7 +33,7 @@
 <?php else: ?>
   <div class="headerTitle">
     <h1 class="site-title" itemscope itemtype="https://schema.org/Organization">
-      <img class="header_logo" src="wp-content/themes/simplicity2_child/images/logo.png" />
+      <img class="header_logo" src="/wp-content/themes/simplicity2_child/images/logo.png" />
     </h1>
     <!-- ハンバーガー -->
     <div id="nav-drawer">
