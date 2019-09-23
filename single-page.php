@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('single'); ?>
 
   <?php //パンくずリスト上ウイジェット
   if ( is_single() && is_active_sidebar( 'widget-over-breadcrumbs' ) ): ?>
