@@ -44,7 +44,6 @@
 
         <?php get_template_part('entry-eye-catch');//アイキャッチ挿入機能?>
 
-        <div id="the-content" class="entry-content">
         
         </div>
 

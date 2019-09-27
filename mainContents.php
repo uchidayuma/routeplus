@@ -13,14 +13,15 @@
     <div class="mainServiceContent">
       <h2 class="subTitle">就職活動時保証付きプログラミング教育</h2>
       <p class="whiteFont">就職が決まらなければ全額返金！
-        <br/> 結果にコミットするプログラミングレッスン 30歳前後のフリーターが 
+        <br/> 結果にコミットするプログラミングレッスン
+        <br/> 30歳前後のフリーターが 
         <br/> 多数ITエンジニアとして就職しています。
       </p>
       <a href="https://se-shine.net/post_lp/lessons/promise-lesson/">詳細はこちら</a>
     </div>
     <div class="mainServiceContent">
       <h4>エンジニア志願者向けサービス</h4>
-      <h2 class="mainServiceContentNotMargin">ココカラエンジニア</h2>
+      <h2 class="subTitle">ココカラエンジニア</h2>
       <p class="whiteFont">エンジニアを目指したい全ての人へ
         <br/>技術・マインド・人生戦略の全てが揃っている
         <br/>メディアです。エンジニアになりたい人は
