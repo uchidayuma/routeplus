@@ -7,10 +7,10 @@
     $site_title = '<a href="'.home_url('/').'">'.get_bloginfo('name').'</a>';
   endif;
 ?>
-<?php if ( is_home() ): ?>
+<?php if ( is_page() ): ?>
   <div class="headerTitle">
     <h1 class="site-title" itemscope itemtype="https://schema.org/Organization">
-      <img class="header_logo" src="/wp-content/themes/simplicity2_child/images/logo.png" />
+    <a href="<?php echo esc_url( home_url( '/') ); ?>"><img class="header_logo" src="/wp-content/themes/simplicity2_child/images/logo.png" /></a>
     </h1>
     <!-- ハンバーガー -->
     <div id="nav-drawer">
@@ -26,32 +26,14 @@
           <li><a href="#aboutUs">About Us</a></li>
           <li><a href="#recruite">Recruite</a></li>
         </ul>
-</div>
       </div>
     </div>
   </div>
 <?php else: ?>
   <div class="headerTitle">
     <h1 class="site-title" itemscope itemtype="https://schema.org/Organization">
-      <img class="header_logo" src="/wp-content/themes/simplicity2_child/images/logo.png" />
+    <a href="<?php echo esc_url( home_url( '/') ); ?>"><img class="header_logo" src="/wp-content/themes/simplicity2_child/images/logo.png" /></a>
     </h1>
-    <!-- ハンバーガー -->
-    <div id="nav-drawer">
-      <input id="nav-input" type="checkbox" class="nav-unshown">
-      <label id="nav-open" for="nav-input"><span></span></label>
-      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-      <div id="nav-content">
-      <!-- ここに中身を入れる -->
-      <ul id="nav">
-        <li><a href="#service">Service</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#mission">Mission</a></li>
-        <li><a href="#aboutUs">About Us</a></li>
-        <li><a href="#recruite">Recruite</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-</div>
-    </div>
   </div>
 <?php endif ?>
 <!-- サイトの概要 -->

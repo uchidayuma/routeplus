@@ -56,11 +56,11 @@ Version:    20161002
 .article h2 {
     border-left: none;
     margin: 0px;
-    padding: 25px 30px;
+    padding: 0px;
     font-size: 26px;
 }
 .article h3 {
-    font-size: 23px;
+    font-size: 24px;
     border-bottom: none;
     padding: 0;
 }
@@ -96,8 +96,12 @@ header{
 .mainServiceContent h4{
   margin: 0;
 }
-.mainServiceContentNotMargin{
-  margin: 0 0 10px 0;
+.mainServiceContent h2 {
+  margin: 0px;
+}
+.mainServiceContent p{
+  margin: 20px 0;
+  line-height: 180%;
 }
 
 .mainServiceContent {
@@ -162,6 +166,10 @@ header{
 	text-align:center;
 	background-color: #E0BCBC;
 	padding: 10px;
+}
+.missionListMain p{
+  font-size:19px;
+  line-height: 200%
 }
 .missionListMain{
 	background-color: #ffffff;
@@ -306,7 +314,7 @@ p{
 #the-content h2{
   font-weight: bold;
   border-left: solid 3px #000000; 
-  margin: 30px 0;
+  padding: 0 10px;
 }
 #the-content h3{
   border-bottom: solid 4px #dfdfdf;
@@ -326,4 +334,13 @@ p{
 /*single-page用のヘッダー*/
 .single-page-header-border{
   width: auto;
+}
+.prev a{
+  color: #000000;
+}
+.next a{
+  color: #000000;
+}
+.footerSingleLogoImg{
+  text-align: center;
 }
