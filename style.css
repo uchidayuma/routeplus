@@ -344,3 +344,15 @@ p{
 .footerSingleLogoImg{
   text-align: center;
 }
+main{
+  display: flex;
+}
+#sidebar{
+  padding: 20px;
+    margin: 76px 10px 0 10px;
+    max-width: 360px;
+    min-width: 320px;
+}
+#sidebar a{
+  color: #000000;
+}

@@ -1,6 +1,7 @@
             </div><!-- /#main -->
+            <?php get_sidebar(); ?>
           </main>
-
+         
         </div><!-- /#body-in -->
       </div><!-- /#body -->
 
