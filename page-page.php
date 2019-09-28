@@ -81,7 +81,6 @@
 
           <?php if ( is_page() )://固定ページのときのみ表示 ?>
 
-          
 
           <div id="sns-group">
           <?php if ( is_bottom_share_btns_visible() ) get_template_part('sns-buttons'); //SNSシェアボタンの取得?>
