@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php if ( is_home() || is_front_page() ) : ?>
+    <?php get_header(); ?>
+  <?php else : ?>
+    <?php get_header('single'); ?>
+<?php endif; ?>
+
 
   <?php get_template_part('breadcrumbs-page'); //固定ページパンくずリスト?>
   <?php
@@ -40,16 +45,7 @@
             <?php endif; ?>
         </header>
 
-        
-
         <?php get_template_part('entry-eye-catch');//アイキャッチ挿入機能?>
-        
-        
-        
-        
-        </div>
-
-        
 
         <footer>
           <?php get_template_part('pager-page-links');//ページリンクのページャー?>
