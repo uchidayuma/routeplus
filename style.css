@@ -43,11 +43,6 @@ Version:    20161002
 .body{
     width: auto;
 }
-@media screen and (max-width: 1110px){
-    div#body-in, div#footer-in {
-        width: 1110px;
-    }
-}
 #header-in, #navi-in, #body-in, #footer-in {
     width: auto;
     margin: 0 auto;
@@ -264,7 +259,7 @@ p{
     justify-content: center;
   }
   .mainNewsDeta{
-    width: 320px;
+    width: 340px;
   }
   .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     padding: 12px;
@@ -349,9 +344,9 @@ p{
 }
 #sidebar{
   padding: 20px;
-    margin: 76px 10px 0 10px;
-    max-width: 360px;
-    min-width: 320px;
+  margin: 0 10px 0 10px;
+  max-width: 360px;
+  min-width: 320px;
 }
 #sidebar a{
   color: #000000;

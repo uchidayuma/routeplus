@@ -1,6 +1,4 @@
             </div><!-- /#main -->
-            <?php get_sidebar(); ?>
-          </div><!-- /singleSidebar -->
           </main>
          
         </div><!-- /#body-in -->

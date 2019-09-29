@@ -80,8 +80,13 @@
           <div id="sns-group">
 
           <?php if ( !is_home() && !is_front_page() ) ://ホームにだけ表示したくないHTMLを記載 ?>
-          <div id="the-content" class="entry-content">
-            <?php the_content(); //本文の呼び出し?>
+          <div class="singleSidebar">
+            <div id="the-content" class="entry-content">
+              <?php the_content(); //本文の呼び出し?>
+            </div>
+            <div>
+              <?php get_sidebar(); //サイドバー読み込み?>
+            </div>
           </div>
             
           <?php endif; ?>

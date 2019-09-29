@@ -86,5 +86,4 @@ endif; ?>
 
           <!-- main -->
           <main itemscope itemprop="mainContentOfPage">
-            <div class="singleSidebar">
-              <div id="main" itemscope itemtype="https://schema.org/Blog">
+            <div id="main" itemscope itemtype="https://schema.org/Blog">
