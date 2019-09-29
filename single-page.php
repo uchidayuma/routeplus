@@ -6,12 +6,20 @@
   <?php endif; ?>
 
   <?php get_template_part('breadcrumbs'); //カテゴリパンくずリスト?>
+  <div class="singleSidebar">
   <?php
   if (have_posts()) : // WordPress ループ
+    
     while (have_posts()) : the_post(); // 繰り返し処理開始
+    
       get_template_part('entry-body'); //本文記事の呼び出し?>
-
+      
       <div id="under-entry-body">
+      </div>
+      <div>
+      <?php get_sidebar(); ?>
+  </div>
+  </div>
 
       <?php if ( is_related_entry_visible() ): //関連記事を表示するか?>
       <aside id="related-entries">

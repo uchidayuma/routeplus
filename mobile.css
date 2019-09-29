@@ -249,7 +249,7 @@
         width: 80%;
     }
     #the-content {
-        max-width: 767px;
+        max-width: 340px;
         margin: auto;
         border: none;
         padding: 0;
@@ -269,5 +269,11 @@
         border-left: solid 3px #000000;
         padding: 10px;
         margin: 30px 0;
+    }
+    #sidebar{
+        display: none;
+    }
+    .mainServiceContent h2{
+        font-size: 18px;
     }
 }       

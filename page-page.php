@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php if ( is_home() || is_front_page() ) : ?>
+    <?php get_header(); ?>
+  <?php else : ?>
+    <?php get_header('single'); ?>
+<?php endif; ?>
+
 
   <?php get_template_part('breadcrumbs-page'); //固定ページパンくずリスト?>
   <?php
@@ -40,14 +45,7 @@
             <?php endif; ?>
         </header>
 
-        <?php get_template_part('mainContents');//ここにメインページのデータを読み込む?>
-
         <?php get_template_part('entry-eye-catch');//アイキャッチ挿入機能?>
-
-        
-        </div>
-
-        
 
         <footer>
           <?php get_template_part('pager-page-links');//ページリンクのページャー?>
@@ -69,8 +67,27 @@
             </div>
           <?php endif; ?>
 
+          <?php if ( is_home() || is_front_page() ) : ?>
+            <?php get_template_part('mainContents');//ここにメインページのデータを読み込む?>
+          <?php endif; ?>
+
           <?php if ( is_page() )://固定ページのときのみ表示 ?>
+
           <div id="sns-group">
+
+          <?php if ( !is_home() && !is_front_page() ) ://ホームにだけ表示したくないHTMLを記載 ?>
+          <div class="singleSidebar">
+            <div id="the-content" class="entry-content">
+              <?php the_content(); //本文の呼び出し?>
+            </div>
+            <div>
+              <?php get_sidebar(); //サイドバー読み込み?>
+            </div>
+          </div>
+            
+          <?php endif; ?>
+            
+          
           <?php if ( is_bottom_share_btns_visible() ) get_template_part('sns-buttons'); //SNSシェアボタンの取得?>
 
           <?php if ( is_body_bottom_follows_visible() ) //カスタマイザーで表示のとき
