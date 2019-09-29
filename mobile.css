@@ -273,4 +273,7 @@
     #sidebar{
         display: none;
     }
+    .mainServiceContent h2{
+        font-size: 18px;
+    }
 }       
